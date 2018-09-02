@@ -9,7 +9,7 @@ client.on('ready', () => {
 client.on('guildMemberAdd' ,member => {
   if(member.guild.id !== '451806679168712714') return;
   setTimeout(function(){
-  member.guild.channels.find(r => r.id === '451806679747788800').send('Welcome To **Blore** Server ...');
+  member.guild.channels.find(r => r.id === '451806679747788800').send('**Welcome To  Blore Server ...**');
 },3000);
 });
 var PrEfix = "-";
